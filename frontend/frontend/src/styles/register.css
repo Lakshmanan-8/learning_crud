@@ -1,0 +1,49 @@
+/* Global styles for the entire form */
+form {
+    display: flex;
+    flex-direction: column;       /* Arrange elements vertically */
+    width: 300px;                 /* Form width */
+    margin: 50px auto;            /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;       /* Border around form */
+    border-radius: 10px;          /* Rounded corners */
+    background-color: #f9f9f9;    /* Light background */
+  }
+  
+  /* Style for each div inside form */
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;           /* Space between form fields */
+  }
+  
+  /* Style for input fields (reduce size here) */
+  input {
+    padding: 8px;                 /* Reduced padding */
+    margin-top: 5px;              /* Small space between label and input */
+    border-radius: 5px;           /* Rounded corners */
+    border: 1px solid #ddd;      /* Border for input */
+    font-size: 14px;              /* Reduced font size */
+    width: 80%;                   /* Reduced width (80% of form width) */
+    max-width: 250px;             /* Maximum width of input field */
+    margin: 0 auto;               /* Center the input field */
+  }
+  
+  /* Style for the submit button */
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  h2{
+    text-align: center;
+  }
