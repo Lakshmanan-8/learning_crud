@@ -32,6 +32,8 @@ const Login = () =>{
         {
                 seterrormsg(error.response?.data?.message || 'Something went wrong');
                 setsuccess('');
+                seterrormsg('');
+                
                 
         }
     };
